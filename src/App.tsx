@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail, MapPin, Phone } from 'lucide-react';
 import NET from 'vanta/dist/vanta.net.min';
-
+import myImage from '../assets/profileimage.jpeg'
 function App() {
   const [vantaEffect, setVantaEffect] = useState<any>(null);
   const vantaRef = useRef<HTMLDivElement>(null);
@@ -45,7 +45,7 @@ function App() {
         >
           <div className="flex flex-col md:flex-row items-center gap-8 mb-8">
             <motion.img
-              src="../../assets/profileimage.jpeg"
+              src={myImage}
               alt="Niladri Pal"
               className="w-48 h-48 rounded-full object-cover border-4 border-blue-500/30 shadow-lg"
               initial={{ opacity: 0, scale: 0.5 }}
