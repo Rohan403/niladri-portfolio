@@ -263,13 +263,13 @@ function App() {
         <footer className="backdrop-blur-md bg-gray-900/80 py-8">
           <div className="container mx-auto px-4 text-center text-gray-400">
             <div className="flex justify-center space-x-6 mb-4">
-              <a href="https://github.com/yourusername" className="hover:text-blue-400 transition-colors">
+              <a href="https://github.com/Rohan403" target="_blank" className="hover:text-blue-400 transition-colors">
                 <Github size={24} />
               </a>
-              <a href="https://linkedin.com/in/niladri-pal-670480213" className="hover:text-blue-400 transition-colors">
+              <a href="https://linkedin.com/in/niladri-pal-670480213" target="_blank" className="hover:text-blue-400 transition-colors">
                 <Linkedin size={24} />
               </a>
-              <a href="mailto:niladripal160@gmail.com" className="hover:text-blue-400 transition-colors">
+              <a href="mailto:niladripal160@gmail.com" target="_blank" className="hover:text-blue-400 transition-colors">
                 <Mail size={24} />
               </a>
             </div>
